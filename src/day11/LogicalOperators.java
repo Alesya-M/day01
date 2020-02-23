@@ -1,0 +1,31 @@
+package day11;
+
+public class LogicalOperators {
+
+    public static void main(String[] args) {
+
+        System.out.println("Truth table &&");
+
+        System.out.println( "Result of true && true is " + (true && true) );
+        System.out.println( "Result of false && true is " + (false && true) );
+        System.out.println( "Result of true && false is " + (true && false) );
+        System.out.println( "Result of false && false is " + (false && false) );
+
+        System.out.println("Truth table ||");
+
+        System.out.println( "Result of true || true is " + (true || true) );
+        System.out.println( "Result of false || true is " + (false || true) );
+        System.out.println( "Result of true || false is " + (true || false) );
+        System.out.println( "Result of false || false is " + (false || false) );
+
+
+        int num = 53;
+        System.out.println(53>100 && 53<10);
+        System.out.println(53>100 || 53<10);
+
+
+    }
+
+    }
+
+

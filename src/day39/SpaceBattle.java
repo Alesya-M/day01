@@ -1,0 +1,23 @@
+package day39;
+
+public class SpaceBattle {
+
+    public static void main(String[] args) {
+
+        SpaceShip s1 = new SpaceShip();
+        s1.name = "Orville";
+        s1.setInitialPosition(1,5);
+        s1.setDirection("ABC");
+        s1.move1Block();
+        System.out.println("s1 = " + s1);
+        s1.setDirection("ABC");
+
+        System.out.println(s1);
+
+        s1.move1Block("dup");
+        s1.move1Block("right");
+        s1.move1Block("up");
+        s1.move1Block("left");
+        s1.move1Block("home");
+    }
+}
